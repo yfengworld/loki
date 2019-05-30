@@ -1,0 +1,41 @@
+silly-src/main.o .depend:  silly-src/main.c deps/lua/lua.h deps/lua/luaconf.h \
+ deps/lua/lualib.h deps/lua/lua.h deps/lua/lauxlib.h silly-src/silly.h \
+ silly-src/silly_conf.h silly-src/silly_malloc.h silly-src/silly_socket.h \
+ deps/libev/ev.h silly-src/silly_log.h silly-src/silly_env.h \
+ silly-src/silly_run.h
+silly-src/silly_socket.o .depend:  silly-src/silly_socket.c silly-src/silly_conf.h \
+ silly-src/silly.h silly-src/silly_malloc.h silly-src/silly_socket.h \
+ deps/libev/ev.h silly-src/atomic.h silly-src/compiler.h \
+ silly-src/silly_log.h silly-src/silly_worker.h
+silly-src/silly_queue.o .depend:  silly-src/silly_queue.c silly-src/atomic.h \
+ silly-src/spinlock.h silly-src/silly.h silly-src/silly_conf.h \
+ silly-src/silly_malloc.h silly-src/silly_socket.h deps/libev/ev.h \
+ silly-src/silly_queue.h
+silly-src/silly_worker.o .depend:  silly-src/silly_worker.c deps/lua/lua.h \
+ deps/lua/luaconf.h deps/lua/lualib.h deps/lua/lua.h deps/lua/lauxlib.h \
+ silly-src/silly.h silly-src/silly_conf.h silly-src/silly_malloc.h \
+ silly-src/silly_socket.h deps/libev/ev.h silly-src/compiler.h \
+ silly-src/silly_log.h silly-src/silly_queue.h silly-src/silly_worker.h
+silly-src/silly_timer.o .depend:  silly-src/silly_timer.c silly-src/silly.h \
+ silly-src/silly_conf.h silly-src/silly_malloc.h silly-src/silly_socket.h \
+ deps/libev/ev.h silly-src/atomic.h silly-src/spinlock.h \
+ silly-src/compiler.h silly-src/silly_log.h silly-src/silly_worker.h \
+ silly-src/silly_timer.h
+silly-src/silly_run.o .depend:  silly-src/silly_run.c silly-src/silly_conf.h \
+ silly-src/silly.h silly-src/silly_malloc.h silly-src/silly_socket.h \
+ deps/libev/ev.h silly-src/compiler.h silly-src/silly_log.h \
+ silly-src/silly_env.h silly-src/silly_timer.h silly-src/silly_worker.h \
+ silly-src/silly_daemon.h silly-src/silly_run.h
+silly-src/silly_daemon.o .depend:  silly-src/silly_daemon.c silly-src/silly.h \
+ silly-src/silly_conf.h silly-src/silly_malloc.h silly-src/silly_socket.h \
+ deps/libev/ev.h silly-src/silly_daemon.h silly-src/silly_log.h
+silly-src/silly_env.o .depend:  silly-src/silly_env.c deps/lua/lua.h deps/lua/luaconf.h \
+ deps/lua/lauxlib.h deps/lua/lua.h silly-src/silly_malloc.h \
+ silly-src/silly_env.h
+silly-src/silly_malloc.o .depend:  silly-src/silly_malloc.c silly-src/atomic.h \
+ silly-src/silly.h silly-src/silly_conf.h silly-src/silly_malloc.h \
+ silly-src/silly_socket.h deps/libev/ev.h \
+ deps/jemalloc/include/jemalloc/jemalloc.h
+silly-src/silly_log.o .depend:  silly-src/silly_log.c silly-src/silly.h \
+ silly-src/silly_conf.h silly-src/silly_malloc.h silly-src/silly_socket.h \
+ deps/libev/ev.h silly-src/silly_log.h

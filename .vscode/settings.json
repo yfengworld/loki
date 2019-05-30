@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "xiosbase": "c",
+        "cmath": "c",
+        "vector": "c",
+        "xstring": "c",
+        "chrono": "c",
+        "xhash": "c",
+        "xutility": "c",
+        "istream": "c",
+        "xlocale": "c",
+        "system_error": "c",
+        "initializer_list": "c",
+        "list": "c",
+        "type_traits": "c"
+    }
+}
